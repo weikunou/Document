@@ -2,9 +2,8 @@
 
 这篇文章主要讲述在 Unity3D 中使用 C# 脚本的一些常见规则。
 
-[TOC]
-
-
+- [初见 Unity3D 中的 C# 脚本](#初见-Unity3D-中的-C#-脚本)
+    - [创建脚本](#创建脚本)
 
 # 初见 Unity3D 中的 C# 脚本
 
@@ -39,7 +38,7 @@ public class Player : MonoBehaviour
 
 每个脚本初始都包含了 Start 和 Update 方法。
 
-Start 是当脚本被挂载到 GameObject 上后，并且脚本组件处于激活状态，那么运行游戏时会调用一次。
+Start 是当脚本被挂载到 GameObject （激活状态）上后，并且脚本组件也处于激活状态，那么运行游戏时会调用一次。
 
 Update 则会每帧调用一次，调用次数受设备的性能帧数影响。
 
